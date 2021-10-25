@@ -1,4 +1,22 @@
 @charset "UTF-8";
 
 html {font-size: 100%;}
-body {}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.7;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.logo {
+    width: 210px;
+    margin-top: 14px;
+}
