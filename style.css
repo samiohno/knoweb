@@ -2,7 +2,7 @@
 
 html {font-size: 100%;}
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif;
     line-height: 1.7;
     color: black;
 }
@@ -15,8 +15,20 @@ img{
     max-width: 100%;
 }
 
+.inner-header {
+    text-align : center
+}
+
+.top-header {
+   height: 152px;
+   background: #0059a1;
+   opacity: 1;
+   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.16);
+}
 
 .logo {
-    width: 210px;
-    margin-top: 14px;
+    width: 214px;
+    height: 72px;
+    border-radius: 3px;
+    /* background: url(...); */    
 }
