@@ -10,7 +10,7 @@
 }
 
 .body {
-    font-family: sans-serif;
+    font-family: 'sans-serif','Font Awesome 5 Free';
     line-height: 1.7;
 
 }
@@ -60,6 +60,17 @@
     margin:0px;
 }
 
+.main1 {
+    margin: 0px 0px 0px 48px;
+    width: 697px;
+}
+
+.wrapper-grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+}
 
 .article {
    width: 352px;
@@ -116,7 +127,7 @@
 }
 
 .card {
-    margin: 0px 0px 22px 48px;
+    margin: 0px
     width: 336px;
     background: #fff;
   }
@@ -134,18 +145,20 @@
 
   .pubdate {
     margin: 8px;
+    padding: 10px;
     font-family: Quicksand;
     font-weight: 600;
     font-size: 13px;
-    letter-spacing: 0.01em;
-    line-height: 24px;
-    text-align: left;
     color: #b5b5b5;
   }
   
-  .pubdate::before {
+  .card-content time::before {
+    font-family: "Font Awesome 5 Free";
+	font-weight: 900;
     content: "\f017";
   }
+
+  
 
   .card-content h2 {
     font-family: Helvetica;
@@ -175,4 +188,42 @@
   }
   .card-link a:hover {
     color: #0090aa;
+  }
+
+.page li{
+    list-style: none;
+    display: inline;
+    
+}
+
+.pages {
+    text-align: center;
+}
+
+  .page1 {
+    text-decoration: none;
+    display: inline-block;
+    background: #0059A1;
+    color: #FFF;
+    width: 46px;
+    height: 46x;
+    line-height: 46px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    margin: 5px;
+  }
+
+  .page2 {
+    text-decoration: none;
+    display: inline-block;
+    background: #FFF;
+    color: #0059A1;
+    width: 46px;
+    height: 46x;
+    line-height: 46px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    margin: 5px;
   }
