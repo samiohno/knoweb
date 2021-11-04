@@ -54,7 +54,6 @@
 }
 
 .textwidget {
-    width: 347px;
     height: 250px;
     background: white;
 }
@@ -276,6 +275,13 @@
     padding: 10px;
   }
 
+  
+  .rankimg {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+  }
+
   .rank-top {
     width: 25px;
     height: 25px;
@@ -286,6 +292,8 @@
     margin: 5px; 
     display: inline-block;
     color: #FFF;
+    position: relative;
+
   }
 
   .ranking {
@@ -295,5 +303,3 @@
   .ninki {
     color: #0c0c0c;
   }
-
-  
